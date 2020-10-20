@@ -1,0 +1,150 @@
+---
+title: "Project proposal"
+author: "Ng Xun Jie"
+date: "`r Sys.Date()`"
+categories: ["R"]
+tags: ["R Markdown", "plot", "Geospatial"]
+output: html_document
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Project name: East Kalimantan as the new J-Town
+
+# 1. Project Motivation
+
+On 26th August 2019, Indonesian President Joko Widodo announced that the capital city of Indonesia would be moved to East Kalimantan, between Penajam Paser Utara district & Kutai Kartanegara district (Figure 1). <https://www.straitstimes.com/asia/se-asia/east-kalimantan-to-be-home-of-indonesias-new-capital-jokowi>
+
+
+```{r echo=FALSE, kalimantan, out.width='50%', fig.show='hold', fig.cap = "Indonesia’s new proposed administrative capital"}
+knitr::include_graphics('/images/kalimantan.png', error = FALSE)
+```
+
+The proposed location is also in between two bigger cities of Balikpapan and Samarinda. The intent was to move away from the heavily populated Java island to slow down the environmental degradation of Jakarta and to unify the archipelago by developing Kalimantan which is geographically the central of Indonesia.
+
+The move garnered criticisms from urban planning experts and environmentalists because the move was not strategic, potentially causing more environmental damage and it won’t mean that Jakarta’s problems will be significantly resolved.
+
+Our project aims to conduct geospatial analysis on the proposed area of the new capital city in East Kalimantan to learn more about the area’s socio-economical potential to be considered as the new capital city of Indonesia. The project aims to achieve this by using Spatially Constrained Clustering method to do a profiling on the study area.
+
+
+
+# 2. Project Objectives
+
+1. Analyse the necessary reasons that led to the change of Indonesia’s capital city from Jakarta to East Kalimantan
+  + The **analysis variables** will be derived from research, dataset and extra variables needed for development of capital city
+  
+2. Conduct **Spatially constrained clustering analysis & segmentation**
+  + Profiling of East Kalimantan province to derive the most suitable area for the new capital city in East Kalimantan 
+  + Performing statistical analysis on the derived clusters to understand the outputs of the clustering algorithms - useful for planners to understand the different clusters and their characteristics
+
+3. Build an **R Blog web page** using R blogdown hosted on **Netlify** that showcases our project and includes all the project details including our poster and research paper
+
+4. Build an R Shiny web application hosted on Shinyapp.io that showcases our spatial findings and let users interact with the parameters or variables of our analysis for better understanding and engagement
+
+# 3. Datasets
+
+a. East Kalimantan study area (shp file)
+    - Variable of interest: 
+    - PROVINCE_ID 
+    - CITY_ID
+    - DISTRICT_ID
+    - VILLAGE_ID
+    - PROVINCE
+    - CITY
+    - DISTRICT
+    - VILLAGE
+    - REGION_CODE
+    - YEAR
+    - SOURCE
+    - GEOMETR
+
+
+  - Uses-To map the study area in R
+
+  - Source-Private data from Professor Kam Tin Seong
+
+b. Statistik Potensi Desa Kalimantan Timur 2018 (PODES 2018) (CSV file)
+
+  - Characteristics: 784 variables
+
+  - Uses- To extract variables to be used for clustering analysis
+
+  - Source- Private data from Professor Kam Tin Seong
+
+
+# 4. Literature review 
+
+1. Palangka Raya the Capital City of Indonesia: Critical Discourse Analysis on News about Moving the Capital City from Jakarta
+    a. Reasons for moving Capital City are the following
+        + Huge, Safe place in Central Kalimantan
+        + Centralised location compared to Jakarta
+2. Sustainability Prediction Model for Capital City Relocation in Indonesia Based on Inclusive Wealth and System Dynamics
+    a. Why moving capitals would be good
+        + Ease Congestion
+        + Slow down environmental degradation
+        + Make Jakarta less vulnerable to natural disaster risks (e.g. earthquakes, volcanos). East Kalimantan is also less affected by natural disasters
+        + Relieve land subsidence created by the pumping of groundwater
+    b. Possible references to other countries that shifted capitals
+        + Brazil is a good reference, since they moved to centralise their capital and used about roughly the same % of GDP to build their new capital
+
+3. Political Reasons for move
+    a. Shift from Java Centric growth to Indonesian centric growth. Inequality between the regions is seen as a source of division in Indonesian society
+        + Could signal that **inequality could be a factor** we include when running the clustering algorithm
+
+
+
+# 5. Methodology
+1. Data Preparation
+    - Data Collection 
+    - Data Import
+    - Data Wrangling
+2. Exploratory Data Analysis (EDA)
+    - Outlier Analysis 
+    - Distribution Analysis 
+    - Check for missing data 
+    - Check for unclean data
+3. Spatially constrained clustering  & segmentation according to variables
+
+    - Analysis variables:
+    - Dependent variables:
+    - Independent variables:
+    - Spatially Constrained Clustering:
+      - Skater method
+      - ClustGeo method
+    - General Clustering Methods: 
+      - Hierarchical clustering
+      - K-Means Clustering 
+      
+      
+      
+# 6. Application Storyboard
+
+
+
+# 7. Application system architecture
+
+Back-end: 
+
+  - R
+  - Rstudio
+  - R Shiny
+
+Hosted on:
+
+  - Shinyapp.io
+  - Netlify
+
+Front-end:
+
+  - R Blogdown
+
+# 8. Project Timeline (Gantt chart)
+
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "Gantts Chart"}
+knitr::include_graphics('/images/Gantts_chart.png', error = FALSE)
+```
+
