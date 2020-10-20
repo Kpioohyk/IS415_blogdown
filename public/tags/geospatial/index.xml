@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on IS415 T14 East Kalimantan as the new J-Town</title>
-    <link>/categories/r/</link>
-    <description>Recent content in R on IS415 T14 East Kalimantan as the new J-Town</description>
+    <title>Geospatial on IS415 T14 East Kalimantan as the new J-Town</title>
+    <link>/tags/geospatial/</link>
+    <description>Recent content in Geospatial on IS415 T14 East Kalimantan as the new J-Town</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/geospatial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project proposal</title>
       <link>/2020/10/20/project-proposal/</link>
@@ -15,18 +15,6 @@
       <guid>/2020/10/20/project-proposal/</guid>
       <description>Project name: East Kalimantan as the new J-Town1. Project MotivationOn 26th August 2019, Indonesian President Joko Widodo announced that the capital city of Indonesia would be moved to East Kalimantan, between Penajam Paser Utara district &amp;amp; Kutai Kartanegara district (Figure 1). https://www.straitstimes.com/asia/se-asia/east-kalimantan-to-be-home-of-indonesias-new-capital-jokowi
 Figure 1: Indonesia’s new proposed administrative capitalThe proposed location is also in between two bigger cities of Balikpapan and Samarinda. The intent was to move away from the heavily populated Java island to slow down the environmental degradation of Jakarta and to unify the archipelago by developing Kalimantan which is geographically the central of Indonesia.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/1/01/01/hello-r-markdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/hello-r-markdown/</guid>
-      <description>2015-07-23T21:13:14-05:00
-R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
     </item>
     
   </channel>

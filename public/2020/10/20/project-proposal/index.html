@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.76.5" />
+
+
+<title>Project proposal - IS415 T14 East Kalimantan as the new J-Town</title>
+<meta property="og:title" content="Project proposal - IS415 T14 East Kalimantan as the new J-Town">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">Project proposal</h1>
+
+    
+    <span class="article-date">2020-10-20</span>
+    
+
+    <div class="article-content">
+      
+
+
+<div id="project-name-east-kalimantan-as-the-new-j-town" class="section level1">
+<h1>Project name: East Kalimantan as the new J-Town</h1>
+</div>
+<div id="project-motivation" class="section level1">
+<h1>1. Project Motivation</h1>
+<p>On 26th August 2019, Indonesian President Joko Widodo announced that the capital city of Indonesia would be moved to East Kalimantan, between Penajam Paser Utara district &amp; Kutai Kartanegara district (Figure 1). <a href="https://www.straitstimes.com/asia/se-asia/east-kalimantan-to-be-home-of-indonesias-new-capital-jokowi" class="uri">https://www.straitstimes.com/asia/se-asia/east-kalimantan-to-be-home-of-indonesias-new-capital-jokowi</a></p>
+<div class="figure"><span id="fig:kalimantan"></span>
+<img src="/images/kalimantan.png" alt="Indonesia’s new proposed administrative capital" width="50%" />
+<p class="caption">
+Figure 1: Indonesia’s new proposed administrative capital
+</p>
+</div>
+<p>The proposed location is also in between two bigger cities of Balikpapan and Samarinda. The intent was to move away from the heavily populated Java island to slow down the environmental degradation of Jakarta and to unify the archipelago by developing Kalimantan which is geographically the central of Indonesia.</p>
+<p>The move garnered criticisms from urban planning experts and environmentalists because the move was not strategic, potentially causing more environmental damage and it won’t mean that Jakarta’s problems will be significantly resolved.</p>
+<p>Our project aims to conduct geospatial analysis on the proposed area of the new capital city in East Kalimantan to learn more about the area’s socio-economical potential to be considered as the new capital city of Indonesia. The project aims to achieve this by using Spatially Constrained Clustering method to do a profiling on the study area.</p>
+</div>
+<div id="project-objectives" class="section level1">
+<h1>2. Project Objectives</h1>
+<ol style="list-style-type: decimal">
+<li>Analyse the necessary reasons that led to the change of Indonesia’s capital city from Jakarta to East Kalimantan</li>
+</ol>
+<ul>
+<li>The <strong>analysis variables</strong> will be derived from research, dataset and extra variables needed for development of capital city</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Conduct <strong>Spatially constrained clustering analysis &amp; segmentation</strong></li>
+</ol>
+<ul>
+<li>Profiling of East Kalimantan province to derive the most suitable area for the new capital city in East Kalimantan</li>
+<li>Performing statistical analysis on the derived clusters to understand the outputs of the clustering algorithms - useful for planners to understand the different clusters and their characteristics</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Build an <strong>R Blog web page</strong> using R blogdown hosted on <strong>Netlify</strong> that showcases our project and includes all the project details including our poster and research paper</p></li>
+<li><p>Build an R Shiny web application hosted on Shinyapp.io that showcases our spatial findings and let users interact with the parameters or variables of our analysis for better understanding and engagement</p></li>
+</ol>
+</div>
+<div id="datasets" class="section level1">
+<h1>3. Datasets</h1>
+<ol style="list-style-type: lower-alpha">
+<li>East Kalimantan study area (shp file)
+<ul>
+<li>Variable of interest:</li>
+<li>PROVINCE_ID</li>
+<li>CITY_ID</li>
+<li>DISTRICT_ID</li>
+<li>VILLAGE_ID</li>
+<li>PROVINCE</li>
+<li>CITY</li>
+<li>DISTRICT</li>
+<li>VILLAGE</li>
+<li>REGION_CODE</li>
+<li>YEAR</li>
+<li>SOURCE</li>
+<li>GEOMETR</li>
+</ul></li>
+</ol>
+<ul>
+<li><p>Uses-To map the study area in R</p></li>
+<li><p>Source-Private data from Professor Kam Tin Seong</p></li>
+</ul>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Statistik Potensi Desa Kalimantan Timur 2018 (PODES 2018) (CSV file)</li>
+</ol>
+<ul>
+<li><p>Characteristics: 784 variables</p></li>
+<li><p>Uses- To extract variables to be used for clustering analysis</p></li>
+<li><p>Source- Private data from Professor Kam Tin Seong</p></li>
+</ul>
+</div>
+<div id="literature-review" class="section level1">
+<h1>4. Literature review</h1>
+<ol style="list-style-type: decimal">
+<li>Palangka Raya the Capital City of Indonesia: Critical Discourse Analysis on News about Moving the Capital City from Jakarta
+<ol style="list-style-type: lower-alpha">
+<li>Reasons for moving Capital City are the following
+<ul>
+<li>Huge, Safe place in Central Kalimantan</li>
+<li>Centralised location compared to Jakarta</li>
+</ul></li>
+</ol></li>
+<li>Sustainability Prediction Model for Capital City Relocation in Indonesia Based on Inclusive Wealth and System Dynamics
+<ol style="list-style-type: lower-alpha">
+<li>Why moving capitals would be good
+<ul>
+<li>Ease Congestion</li>
+<li>Slow down environmental degradation</li>
+<li>Make Jakarta less vulnerable to natural disaster risks (e.g. earthquakes, volcanos). East Kalimantan is also less affected by natural disasters</li>
+<li>Relieve land subsidence created by the pumping of groundwater</li>
+</ul></li>
+<li>Possible references to other countries that shifted capitals
+<ul>
+<li>Brazil is a good reference, since they moved to centralise their capital and used about roughly the same % of GDP to build their new capital</li>
+</ul></li>
+</ol></li>
+<li>Political Reasons for move
+<ol style="list-style-type: lower-alpha">
+<li>Shift from Java Centric growth to Indonesian centric growth. Inequality between the regions is seen as a source of division in Indonesian society
+<ul>
+<li>Could signal that <strong>inequality could be a factor</strong> we include when running the clustering algorithm</li>
+</ul></li>
+</ol></li>
+</ol>
+</div>
+<div id="methodology" class="section level1">
+<h1>5. Methodology</h1>
+<ol style="list-style-type: decimal">
+<li><p>Data Preparation</p>
+<ul>
+<li>Data Collection</li>
+<li>Data Import</li>
+<li>Data Wrangling</li>
+</ul></li>
+<li><p>Exploratory Data Analysis (EDA)</p>
+<ul>
+<li>Outlier Analysis</li>
+<li>Distribution Analysis</li>
+<li>Check for missing data</li>
+<li>Check for unclean data</li>
+</ul></li>
+<li><p>Spatially constrained clustering &amp; segmentation according to variables</p>
+<ul>
+<li>Analysis variables:</li>
+<li>Dependent variables:</li>
+<li>Independent variables:</li>
+<li>Spatially Constrained Clustering:
+<ul>
+<li>Skater method</li>
+<li>ClustGeo method</li>
+</ul></li>
+<li>General Clustering Methods:
+<ul>
+<li>Hierarchical clustering</li>
+<li>K-Means Clustering</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+<div id="application-storyboard" class="section level1">
+<h1>6. Application Storyboard</h1>
+</div>
+<div id="application-system-architecture" class="section level1">
+<h1>7. Application system architecture</h1>
+<p>Back-end:</p>
+<ul>
+<li>R</li>
+<li>Rstudio</li>
+<li>R Shiny</li>
+</ul>
+<p>Hosted on:</p>
+<ul>
+<li>Shinyapp.io</li>
+<li>Netlify</li>
+</ul>
+<p>Front-end:</p>
+<ul>
+<li>R Blogdown</li>
+</ul>
+</div>
+<div id="project-timeline-gantt-chart" class="section level1">
+<h1>8. Project Timeline (Gantt chart)</h1>
+<div class="figure"><span id="fig:unnamed-chunk-1"></span>
+<img src="/images/Gantts_chart.png" alt="Gantts Chart" width="100%" />
+<p class="caption">
+Figure 2: Gantts Chart
+</p>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
