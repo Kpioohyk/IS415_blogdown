@@ -123,6 +123,21 @@ b. Statistik Potensi Desa Kalimantan Timur 2018 (PODES 2018) (CSV file)
       
 # 6. Application Storyboard
 
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "Gantts Chart"}
+knitr::include_graphics('/images/storyboard_about.jpg', error = FALSE)
+```
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "Gantts Chart"}
+knitr::include_graphics('/images/storyboard_data.jpg', error = FALSE)
+```
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "Gantts Chart"}
+knitr::include_graphics('/images/storyboard_EDA.jpg', error = FALSE)
+```
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "Gantts Chart"}
+knitr::include_graphics('/images/storyboard_clustgeo.jpg', error = FALSE)
+```
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "Gantts Chart"}
+knitr::include_graphics('/images/storyboard_skater.jpg', error = FALSE)
+```
 
 
 # 7. Application system architecture
