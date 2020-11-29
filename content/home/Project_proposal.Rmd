@@ -133,11 +133,14 @@ Figure 1: Shiny App About page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 knitr::include_graphics('/images/storyboard_EDA.png', error = FALSE)
 knitr::include_graphics('/images/storyboard_clustgeo.png', error = FALSE)
 ```
-Figure 3: Shiny App EDA page  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Figure 4: Shiny App Cluster(ClustGeo) page
+Figure 3: Shiny App EDA page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 4: Shiny App Cluster(ClustGeo)
+
+
 ```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default"}
 knitr::include_graphics('/images/storyboard_skater.png', error = FALSE)
 ```
-Figure 5: Shiny App Cluster(SKATER) page
+
+Figure 5: Shiny App Cluster(SKATER) 
 
 
 # 7. Application system architecture
