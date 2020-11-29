@@ -123,39 +123,28 @@ b. Statistik Potensi Desa Kalimantan Timur 2018 (PODES 2018) (CSV file)
       
 # 6. Application Storyboard
 
-```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default", fig.cap = "Shiny App About page"}
+```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default"}
 knitr::include_graphics('/images/storyboard_about.png', error = FALSE)
-```
-```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default", fig.cap = "Shiny App Data page"}
 knitr::include_graphics('/images/storyboard_data.png', error = FALSE)
 ```
-```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default", fig.cap = "Shiny App EDA page"}
+Figure 1: Shiny App About page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Figure 2: Shiny App Data page
+
+```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default"}
 knitr::include_graphics('/images/storyboard_EDA.png', error = FALSE)
-```
-```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default", fig.cap = "Shiny App Cluster(ClustGeo) page"}
 knitr::include_graphics('/images/storyboard_clustgeo.png', error = FALSE)
 ```
-```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default", fig.cap = "Shiny App Cluster(SKATER) page"}
+Figure 3: Shiny App EDA page  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Figure 4: Shiny App Cluster(ClustGeo) page
+```{r echo=FALSE, out.width='50%', fig.show='hold', fig.align = "default"}
 knitr::include_graphics('/images/storyboard_skater.png', error = FALSE)
 ```
+Figure 5: Shiny App Cluster(SKATER) page
 
 
 # 7. Application system architecture
 
-Back-end: 
-
-  - R
-  - Rstudio
-  - R Shiny
-
-Hosted on:
-
-  - Shinyapp.io
-  - Netlify
-
-Front-end:
-
-  - R Blogdown
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "System Architecture"}
+knitr::include_graphics('/images/system_architecture.png', error = FALSE)
+```
 
 # 8. Project Timeline (Gantt chart)
 
