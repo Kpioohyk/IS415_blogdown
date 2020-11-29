@@ -1,0 +1,22 @@
+---
+title: "Research Paper"
+author: "Ng Xun Jie"
+date: "`r Sys.Date()`"
+categories: ["R"]
+tags: ["R Markdown", "plot", "Geospatial"]
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This blog contains our Research paper. 
+
+
+```{r label, out.width = "85%", fig.cap = "caption"}
+knitr::include_graphics("IS415-T14-Practice-Research-Paper.pdf")
+```
+
+[Link to material from talk](https://github.com/IndyUseR/IndyUserWebpg/tree/master/static/presentationFiles/jun2018)
