@@ -1,0 +1,17 @@
+---
+title: Research Paper
+author: Ng Xun Jie
+date: '2020-11-29'
+slug: research-paper
+categories:
+  - R
+tags:
+  - Geospatial
+  - plot
+  - R Markdown
+---
+
+# Research Paper 
+
+Our research paper can be found through this [link](https://github.com/Kpioohyk/IS415_T14_Project/blob/master/Research%20Paper/Practice%20Research%20Paper/Practice-Research-Paper.pdf)
+
