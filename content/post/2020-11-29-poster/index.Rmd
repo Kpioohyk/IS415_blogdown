@@ -1,0 +1,18 @@
+---
+title: 
+  Poster
+author: Ng Xun Jie
+date: '2020-11-29'
+slug: poster
+categories:
+  - R
+tags:
+  - Geospatial
+  - plot
+  - R Markdown
+---
+
+
+```{r echo=FALSE, out.width='100%', fig.show='hold', fig.cap = "Our poster"}
+knitr::include_graphics('/images/IS415_poster.png', error = FALSE)
+```
